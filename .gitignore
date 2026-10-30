@@ -1,0 +1,49 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+.env.*
+
+# Datasets
+data/raw/*
+data/processed/*
+data/samples/*
+
+# Keep instructions for the data directory
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/samples/.gitkeep
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+checkpoints/
+
+# Generated outputs
+outputs/videos/*
+outputs/plots/*
+outputs/reports/*
+
+# Keep output directories in Git
+!outputs/videos/.gitkeep
+!outputs/plots/.gitkeep
+!outputs/reports/.gitkeep
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+EOF
