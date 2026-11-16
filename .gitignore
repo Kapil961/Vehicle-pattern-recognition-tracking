@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+data/raw/*
+!data/raw/DETRAC-Test-Annotations-XML.zip
+!data/raw/DETRAC-Test-Annotations-MAT.zip
+
+outputs/videos/*
+!outputs/videos/final_vehicle_recognition_verified.mp4

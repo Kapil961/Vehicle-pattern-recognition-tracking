@@ -1,0 +1,10 @@
+VEHICLE TRAFFIC ANALYTICS
+========================================
+Total unique vehicles: 132
+Total observations: 49727
+Video frames analyzed: 3600
+
+Vehicle type distribution:
+vehicle_type
+Car      125
+Truck      7

@@ -1,0 +1,9 @@
+torch==2.2.2
+torchvision==0.17.2
+ultralytics==8.2.103
+easyocr==1.7.2
+opencv-python==4.10.0.84
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.9.4
+PyYAML==6.0.3

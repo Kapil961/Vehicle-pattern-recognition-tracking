@@ -1,0 +1,29 @@
+vehicle_track_id,plate_text,distinct_frames,mean_detector_confidence,first_frame,last_frame,vehicle_type,reading_status
+1.0,ZPO5IJEO,1,0.634,301,301,Car,Single reading - unverified
+3.0,NAI3NRU,1,0.71,1,1,Car,Single reading - unverified
+5.0,HIISU,1,0.862,61,61,Car,Single reading - unverified
+6.0,GXIS0GJ,2,0.807,61,121,Car,Repeated reading
+7.0,FJIAZHY,1,0.718,541,541,Car,Single reading - unverified
+11.0,U302FKO,1,0.821,481,481,Car,Single reading - unverified
+12.0,BG6STUSJ,1,0.882,841,841,Car,Single reading - unverified
+14.0,HIVCV,1,0.611,241,241,Car,Single reading - unverified
+21.0,HNLACC,1,0.77,781,781,Car,Single reading - unverified
+22.0,AKBADHV,3,0.848,961,1201,Car,Repeated reading
+31.0,VOBHVF,1,0.761,781,781,Car,Single reading - unverified
+32.0,EYGINBG,2,0.667,541,661,Car,Repeated reading
+33.0,MSKGJ,2,0.732,961,1021,Car,Repeated reading
+35.0,A65JKV,1,0.759,1381,1381,Car,Single reading - unverified
+41.0,GJO6ERD,1,0.915,1681,1681,Car,Single reading - unverified
+45.0,EFIODZT,1,0.915,1261,1261,Car,Single reading - unverified
+46.0,DAOZCLX,2,0.85,1741,1861,Car,Repeated reading
+47.0,KH06KSU,1,0.758,1501,1501,Car,Single reading - unverified
+53.0,LNSZZC,3,0.766,1561,1681,Car,Repeated reading
+63.0,EYO9WS,2,0.88,1921,2041,Truck,Repeated reading
+66.0,BPBTYH,1,0.879,2221,2221,Car,Single reading - unverified
+70.0,24HRDRAINAGE,1,0.388,2041,2041,Car,Single reading - unverified
+90.0,0G65ZFX,2,0.619,2521,2581,Car,Repeated reading
+92.0,M64OG,1,0.786,2701,2701,Car,Single reading - unverified
+99.0,LPLLIA,1,0.884,2881,2881,Car,Single reading - unverified
+111.0,CELAL,1,0.651,3361,3361,Car,Single reading - unverified
+113.0,GI0SF,1,0.922,3541,3541,Car,Single reading - unverified
+125.0,SCS52,1,0.728,3541,3541,Car,Single reading - unverified

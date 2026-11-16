@@ -1,0 +1,55 @@
+{
+    "project": "Vehicle Pattern Recognition and Tracking",
+    "video_processing": {
+        "total_frames_processed": 3600,
+        "vehicle_observations": 49727
+    },
+    "vehicle_detection_and_tracking": {
+        "unique_tracked_vehicles": 132,
+        "vehicle_type_distribution": {
+            "Car": 125,
+            "Truck": 7
+        }
+    },
+    "vehicle_color_classification": {
+        "color_distribution": {
+            "Blue": 128,
+            "Gray": 2,
+            "Green": 2
+        },
+        "method": "OpenCV-based heuristic",
+        "ground_truth_validated": false
+    },
+    "license_plate_recognition": {
+        "usable_ocr_readings": 375,
+        "vehicles_with_plate_readings": 33,
+        "vehicles_with_plate_consensus": 7,
+        "ground_truth_validated": false
+    },
+    "speed_estimation": {
+        "speed_observations": 49595,
+        "vehicles_with_speed_estimates": 131,
+        "mean_speed_kmh": 3.32,
+        "median_speed_kmh": 2.87,
+        "maximum_speed_kmh": 91.37,
+        "calibration_status": "approximate_assumed_dimensions",
+        "reliability": "approximate_unverified"
+    },
+    "model_information": {
+        "vehicle_detector": "Pretrained YOLOv8n (COCO weights)",
+        "tracker": "ByteTrack",
+        "license_plate_detector": "Pretrained YOLO license plate model",
+        "ocr": "EasyOCR",
+        "vehicle_color": "OpenCV heuristic",
+        "vehicle_specific_fine_tuning": false,
+        "ua_detrac_used_for_training": false
+    },
+    "evaluation_limitations": [
+        "No ground-truth vehicle annotations for this test video.",
+        "Detection precision, recall and mAP were not measured.",
+        "Tracking ID accuracy was not ground-truth validated.",
+        "License plate OCR accuracy was not ground-truth validated.",
+        "Color predictions require further validation.",
+        "Speed estimates require measured road calibration."
+    ]
+}

@@ -1,0 +1,66 @@
+VEHICLE PATTERN RECOGNITION AND TRACKING
+PROJECT EVALUATION REPORT
+============================================================
+
+1. VIDEO PROCESSING
+Total frames processed: 3600
+Vehicle observations: 49727
+
+2. VEHICLE DETECTION AND TRACKING
+Unique tracked vehicles: 132
+Vehicle type distribution:
+  Car: 125
+  Truck: 7
+
+3. VEHICLE COLOR CLASSIFICATION
+Color distribution:
+  Blue: 128
+  Gray: 2
+  Green: 2
+
+Method: OpenCV-based color heuristic.
+Color classification has not been ground-truth validated.
+
+4. LICENSE PLATE DETECTION AND OCR
+Usable OCR readings: 375
+Vehicles with OCR readings: 33
+Vehicles with plate consensus: 7
+
+Note: OCR consensus does not establish that a plate is correct.
+Plate recognition accuracy has not been ground-truth validated.
+
+5. SPEED ESTIMATION
+Speed observations: 49595
+Vehicles with speed estimates: 131
+Mean estimated speed: 3.32 km/h
+Median estimated speed: 2.87 km/h
+Maximum estimated speed: 91.37 km/h
+Calibration status: approximate_assumed_dimensions
+Reliability: Approximate and unverified.
+Calibration uses assumed road dimensions, not measured ground distances.
+
+6. MODEL AND DATASET INFORMATION
+Vehicle detector: Pretrained YOLOv8n (COCO weights).
+Multi-object tracker: ByteTrack.
+License plate detector: Pretrained YOLO license plate model.
+OCR engine: EasyOCR.
+Color recognition: OpenCV-based heuristic.
+Vehicle-specific model fine-tuning: Not performed.
+UA-DETRAC: Not used to train this pipeline.
+
+7. EVALUATION LIMITATIONS
+- No ground-truth vehicle annotations for this test video.
+- Detection precision, recall and mAP were not measured.
+- Tracking ID accuracy was not ground-truth validated.
+- License plate OCR accuracy was not ground-truth validated.
+- Color predictions require further validation.
+- Speed estimates require measured road calibration.
+
+8. OVERALL EVALUATION
+The pipeline successfully processed the complete test video.
+Vehicle detection, tracking, plate OCR, color estimation and
+approximate speed estimation produced output results.
+These results demonstrate pipeline execution, not verified
+real-world accuracy.
+
+END OF REPORT
